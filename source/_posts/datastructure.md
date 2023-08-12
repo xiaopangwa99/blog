@@ -1,8 +1,10 @@
 ---
 title: 数据结构整理
-categories: data structure
+categories: 知识总结
+tags:
+    - data structure
 date: 2023-08-09 10:00:00
-desciption: 对数据结构知识点的整理
+description: 对数据结构知识点的整理
 ---
 # 基本定义
 
