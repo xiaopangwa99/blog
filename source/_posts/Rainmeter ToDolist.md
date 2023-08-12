@@ -7,6 +7,7 @@ tags:
 date: 2023-08-12 22:00:00
 description: 一款实用的桌面TODO组件！
 cover: https://tttuuuchuang.oss-cn-wulanchabu.aliyuncs.com/uploads/2023/08/12/nglCyo9G_5c0e15bfde4c6b2b393420bbf57e974d.jpeg
+top_img: rgba(0,0,0,0)
 ---
 ## 对Todo小组件进行了一定的修改
 
