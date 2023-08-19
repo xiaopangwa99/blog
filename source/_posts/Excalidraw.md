@@ -8,7 +8,7 @@ tags:
     - Git
 date: 2023-08-19 15:00:00
 description: 实用画图工具excalidraw
-cover: https://tttuuuchuang.oss-cn-wulanchabu.aliyuncs.com/uploads/2023/08/19/2-2023-08-19-1530.png
+cover: https://tttuuuchuang.oss-cn-wulanchabu.aliyuncs.com/uploads/2023/08/19/4-2023-08-19-1530.png
 top_img: rgba(0,0,0,0)
 ---
 ## Excalidraw
