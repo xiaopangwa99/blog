@@ -1,0 +1,5 @@
+- class_name: 友情链接
+  class_desc: butterfly配置文档
+  link_list:
+    - name: Butterfly
+      link: https://butterfly.js.org/
