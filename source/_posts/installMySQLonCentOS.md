@@ -97,3 +97,29 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码'
 看到``Query OK``的提示，即为修改成功。
 
 至此结束
+
+# 更新
+
+用IDEA远程连接MySQL时出现连接不上的问题，原因是连接权限设定为仅本机了。依次执行以下sql语句
+
+```sql
+use mysql;
+select user, host from user;
+```
+
+可以看到
+
+![](https://yym-tuchuang.oss-cn-hangzhou.aliyuncs.com/blog/2024-02-11/%20connect1.png)
+
+执行以下sql语句
+
+```sql
+update user set host = '%' where user = 'root';
+flush privileges;
+```
+
+此时再次进行尝试
+
+![](https://yym-tuchuang.oss-cn-hangzhou.aliyuncs.com/blog/2024-02-13/%20connect2.png)
+
+连接成功！
